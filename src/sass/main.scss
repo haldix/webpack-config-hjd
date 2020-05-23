@@ -1,0 +1,36 @@
+body {
+  background-color: #e3f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hole {
+  border: 1px solid #00f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fee;
+
+  &__center {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+}
+
+input {
+  margin: 2rem;
+  font-family: inherit;
+}
+
+::placeholder {
+  color: red;
+}
+
+.wp-img {
+  width: 500px;
+  height: auto;
+}
