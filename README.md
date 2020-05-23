@@ -10,3 +10,4 @@ https://dev.to/pixelgoo/how-to-configure-webpack-from-scratch-for-a-basic-websit
 ## Notes
 
 - when webpack-dev-server is running, no dist files are created.
+- was getting EPERM can't remove error when trying to delete old build files with clean-webpack plugin. Ran npm clean cache --force to fix.
