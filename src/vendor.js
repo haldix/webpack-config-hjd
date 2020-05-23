@@ -1,4 +1,3 @@
-const ball = document.querySelector('#ball');
-ball.addEventListener('click', () => {
-  ball.classList.toggle('ball__expand');
-});
+export const add = (a, b) => {
+  return a + b;
+};
