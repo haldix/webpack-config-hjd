@@ -38,6 +38,17 @@ module.exports = {
         },
       },
       {
+        test: /\.html$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[hash].[ext]',
+            outputPath: '/',
+          },
+        },
+        exclude: path.resolve(__dirname, './src/template.html'),
+      },
+      {
         test: /\.(woff|woff2|ttf|otf|eot)$/,
         use: [
           {
